@@ -108,7 +108,7 @@ padding: 50px;
 }
 
 footer {
-  position: static;
+  position: relative;
   bottom: -500;
   z-index: -1;
   display: flex;
@@ -118,6 +118,10 @@ footer {
   justify-content: center;
   background-color: #f1f1f1;
   min-height: 100px;
+  text-align: center;
+}
+
+.greeting {
   text-align: center;
 }
 
