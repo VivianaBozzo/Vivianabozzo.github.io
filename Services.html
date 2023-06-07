@@ -7,25 +7,36 @@
   <body>
     <header class="container-nav">
       <nav class="navbar" role="navigation">
-        <a href="index.html" class="brand"> <h1>Mi página web</h1></a>
+        <a href="index.html" class="brand">
+          <img src="/IMAGENES/Diseño sin título (8)-PhotoRoom.png-PhotoRoom.png" style="height: 100px;" width="100px"> </a>
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
-          <li><a href="About.html">About</a></li>
-          <li><a href="Services.html">Services</a></li>
-          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="About.html">Nosotros</a></li>
+          <li><a href="Services.html">Servicios</a></li>
+          <li><a href="Contact.html">Contacto</a></li>
         </ul>
       </nav>
       <button class="button-menu-toggle">Menu</button>
     </header>
 
     <main>
-      <div class="container">
+      <div class="container-services">
         <h1>Nuestros servicios</h1>
         <p>Descubre aquí los servicios que ofrecemos.</p>
         <ul>
           <li>Atencion al cliente</li>
-          <li>Nuestras tiendas</li>
-          <li>Productos</li>
+          <li>Paginas de nuestros programadores</li>
+          <li><form>
+            <label for="opciones">Selecciona una opción:</label>
+            <select id="opciones" name="opciones" required>
+              <option value="">-- Selecciona una opción --</option>
+              <option value="opcion1">Back-End</option>
+              <option value="opcion2">Front-End</option>
+              <option value="opcion3">SQ</option>
+            </select>
+            <button type="submit">Seleccionar </button>
+          </form>
+        </li>
         </ul>
     </div>
     </main>

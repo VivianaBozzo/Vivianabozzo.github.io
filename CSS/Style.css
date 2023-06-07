@@ -1,6 +1,6 @@
 body, ul {
     margin: 0;
-    font-family: monospace;
+    font-family: sans-serif;
     font-weight: bold;
     font-size: 20px;
     padding: 0;
@@ -10,6 +10,33 @@ body, ul {
     margin: auto;
     padding: 20px;
 }
+
+.container-services {
+  max-width: 882px;
+  margin: inherit;
+  padding: 110px;
+}
+
+select option {
+  font-size: 1em; /* Tamaño de fuente */
+  padding: 1px; /* Espacio alrededor del texto */
+  border: none; /* Quitamos el borde */
+  background-color: #f2f2f2; /* Color de fondo */
+  border-radius: 1px; /* Borde redondeado */
+}
+
+/* Estilo para la opción seleccionada */
+select option:checked {
+  background-color: #007bff; /* Color de fondo cuando está seleccionado */
+  color: whitesmoke; /* Color del texto cuando está seleccionado */
+}
+
+.container-contact {
+  max-width: 882px;
+  margin: inherit;
+  padding: 110px;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -28,8 +55,8 @@ body, ul {
 .container-nav {
   display: flex;
   padding: 10px;
-  height: 50px;
-  background-color: black;
+  background-image: url(/IMAGENES/Esta4.jpg);
+  background-size: 100%;
 }
 
 
@@ -37,6 +64,7 @@ body, ul {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  align-items: baseline;
 }
 
 
@@ -57,14 +85,14 @@ li {
 
 
 a {
-  color: white;
-  text-decoration:none;
+  color:rgb(0, 204, 255);
+  text-decoration: solid;
 }
 
 
 .nav-links {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 
@@ -107,9 +135,9 @@ padding: 50px;
 
 }
 
+
 footer {
   position: relative;
-  bottom: -500;
   z-index: -1;
   display: flex;
   flex-direction: column;
@@ -119,6 +147,7 @@ footer {
   background-color: #f1f1f1;
   min-height: 100px;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .greeting {
@@ -189,7 +218,7 @@ footer {
   
     .button-menu-toggle {
       display: block;
-      background-color: white;
+      background-color:whitesmoke;
       border:none;
       border-radius: 50px;
       padding: 0 24px;

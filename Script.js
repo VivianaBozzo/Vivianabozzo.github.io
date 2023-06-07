@@ -26,6 +26,7 @@ if (form) {
     validateForm();
 })
 
+
 }
 
   document.querySelector("button.button-menu-toggle")
